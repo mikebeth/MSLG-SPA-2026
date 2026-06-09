@@ -1,0 +1,8 @@
+torch
+transformers
+pandas
+scikit-learn
+spacy
+evaluate
+sacrebleu
+unbabel-comet
