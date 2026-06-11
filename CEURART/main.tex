@@ -45,6 +45,7 @@ Glosses serve as a written, sequential approximation of sign language, capturing
 
 The primary challenge in this shared task is data scarcity. The official training dataset consists of only 489 aligned sentence pairs, a quantity insufficient for training modern deep learning architectures from scratch. To address this, I framed the problem within a transfer learning paradigm, relying on a pre-trained multilingual model (mBART-50) and applying zero-shot cross-lingual capabilities and synthetic data augmentation techniques to mitigate the risk of overfitting.
 
+\newpage
 My approach consists of two main components:
 \begin{enumerate}
     \item I propose a four-phase transfer learning pipeline that bridges the linguistic gap between German sign language datasets and Mexican Sign Language.
